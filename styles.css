@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#f8f8f8; 
+    Background-color: #F9FCFC;
     box-sizing: border-box;
 }
 #cont{
     font-family: roboto, sans-serif;
-Background-color: #F9FCFC;
+
 }
 #main{
     margin: 30px 250px 60px 250px;
