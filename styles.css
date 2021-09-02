@@ -5,21 +5,28 @@
 }
 body{
     background-color:#f8f8f8; 
+    box-sizing: border-box;
+}
+#cont{
+    border: 2px red solid;
+    font-family: roboto, sans-serif;
 }
 #main{
-    padding: 30px 140px 80px 140px ;
-   
-    font-family: roboto, sans-serif;
+margin: 30px 110px 90px 110px;
+border: 2px blue solid;
 }
 #main h1{
     text-align: center;
 }
 #maintop{
     display: flex;
+    flex: 50%;
     margin-top: 20px;
+    border: 2px yellow solid;
 }
 .toy{
     padding: 20px;
+    border: 2px red solid;
 }
 .toy h2{
     display: inline-block;
@@ -36,12 +43,14 @@ body{
 }
 #contact{
     padding: 50px 110px;
+    border: 2px red solid;
 }
 #contact div{
-  padding: 30px 100px 90px 100px;
+  padding: 30px 90px 90px 90px;
   background-color: white;
   border-radius: 10px;
-  
+
+  box-shadow: 2px 2px 3px gray;
 }
 input[type="text"]{
     height: 43px;
